@@ -7,6 +7,8 @@ vim.call('plug#begin')
 
 Plug 'sbdchd/neoformat'  --格式化
 
+Plug 'nvimdev/lspsaga.nvim' --lsp增强
+
 Plug 'lukas-reineke/indent-blankline.nvim' --缩进高亮
 
 Plug 'nvim-tree/nvim-tree.lua' --文件浏览
