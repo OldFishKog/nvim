@@ -16,6 +16,7 @@ Plug 'nvim-tree/nvim-tree.lua' --文件浏览
 Plug 'Kicamon/im-switch.nvim' --输入法自动切换
 
 Plug 'mason-org/mason.nvim' --LSP的包管理
+Plug 'mason-org/mason-lspconfig.nvim'
 
 Plug 'neovim/nvim-lspconfig'  --cmp自动补全系列
 Plug 'hrsh7th/cmp-nvim-lsp'

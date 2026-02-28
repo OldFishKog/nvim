@@ -1,7 +1,4 @@
-vim.lsp.enable('clangd')
-vim.lsp.enable('bashls')
-vim.lsp.enable('rust_analyzer')
-vim.lsp.enable('pylsp')
+vim.lsp.config('clangd',{
+cmd = {"clangd","--query-driver=C:\\software\\mingw64\\bin\\gcc.exe"},
 
-vim.lsp.config('neocmake',{})
-vim.lsp.enable('neocmake')
+})
