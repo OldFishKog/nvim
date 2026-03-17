@@ -5,6 +5,14 @@ vim.call('plug#begin')
 
 --在此处添加插件仓库
 
+Plug 'yianwillis/vimcdoc' --中文化
+
+Plug 'nvim-lualine/lualine.nvim'
+
+Plug 'nvim-tree/nvim-web-devicons'
+
+Plug 'goolord/alpha-nvim' --自定义开始菜单
+
 Plug 'sbdchd/neoformat'  --格式化
 
 Plug 'nvimdev/lspsaga.nvim' --lsp增强

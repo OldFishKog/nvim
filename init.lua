@@ -1,3 +1,4 @@
+local is_tty = vim.fn.has('unix') == 1 and vim.env.TERM == 'linux'
 require('pluginstaller')
 require('config.cmpConfig')
 require('config.lspConfig')
@@ -9,3 +10,6 @@ require('config.troubleShow')
 require('config.imSelect')
 require('config.lspEnhance')
 require('config.masonConfig')
+require('config.alphanvim')
+require('config.lualine')
+require('config.lspsaga')
